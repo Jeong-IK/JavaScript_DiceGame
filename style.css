@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-color: rgb(20, 185, 62);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(221, 163, 109, 0.466);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
+.dice1 {
+  position: absolute;
+  right: 80%;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dice2 {
+  position: absolute;
+  right: 60%;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dice3 {
+  position: absolute;
+  right: 40%;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dice4 {
+  position: absolute;
+  right: 20%;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dice5 {
+  position: absolute;
+  right: -1%;
+  top: 7rem;
+  transform: translateX(-50%);
+  height: 5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn::first-letter {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+.btn--roll {
+  top: 5rem;
+}
